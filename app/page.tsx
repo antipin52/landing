@@ -43,50 +43,65 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-white mb-4">Что мы делаем</h2>
           <p className="text-gray-400">От простых лендингов до AI-приложений</p>
         </div>
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {/* Service 1 */}
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-purple-500/50 transition-all">
-            <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6">
-              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
+            <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-5">
+              <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-white mb-3">Лендинги</h3>
-            <p className="text-gray-400 mb-6">
-              Красивые продающие страницы для вашего бизнеса. Адаптивный дизайн, анимации, форма заявки.
+            <h3 className="text-xl font-bold text-white mb-2">Лендинги</h3>
+            <p className="text-gray-400 mb-4 text-sm">
+              Красивые продающие страницы для бизнеса. Дизайн, анимации, форма заявки.
             </p>
-            <div className="text-3xl font-bold text-purple-400 mb-2">от $300</div>
-            <div className="text-sm text-gray-500">1-2 дня</div>
+            <div className="text-2xl font-bold text-purple-400 mb-1">от $300</div>
+            <div className="text-xs text-gray-500">1-2 дня</div>
           </div>
 
           {/* Service 2 */}
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-purple-500/50 transition-all">
-            <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mb-6">
-              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
+            <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mb-5">
+              <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-white mb-3">AI-страницы</h3>
-            <p className="text-gray-400 mb-6">
+            <h3 className="text-xl font-bold text-white mb-2">AI-страницы</h3>
+            <p className="text-gray-400 mb-4 text-sm">
               Веб-страницы с интеграцией ИИ-чатов, генерацией текстов и умными формами.
             </p>
-            <div className="text-3xl font-bold text-blue-400 mb-2">от $500</div>
-            <div className="text-sm text-gray-500">2-3 дня</div>
+            <div className="text-2xl font-bold text-blue-400 mb-1">от $500</div>
+            <div className="text-xs text-gray-500">2-3 дня</div>
           </div>
 
           {/* Service 3 */}
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-purple-500/50 transition-all">
-            <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-6">
-              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
+            <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center mb-5">
+              <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3 className="text-xl font-bold text-white mb-2">Настройка OpenClaw</h3>
+            <p className="text-gray-400 mb-4 text-sm">
+              Персональный ИИ-помощник: установка, настройка, интеграция с Telegram, обучение.
+            </p>
+            <div className="text-2xl font-bold text-orange-400 mb-1">от $200</div>
+            <div className="text-xs text-gray-500">2-3 дня</div>
+          </div>
+
+          {/* Service 4 */}
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-purple-500/50 transition-all">
+            <div className="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-5">
+              <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-white mb-3">Простые приложения</h3>
-            <p className="text-gray-400 mb-6">
+            <h3 className="text-xl font-bold text-white mb-2">Простые приложения</h3>
+            <p className="text-gray-400 mb-4 text-sm">
               Небольшие веб-приложения: калькуляторы, планировщики, CRM-lite, инструменты.
             </p>
-            <div className="text-3xl font-bold text-green-400 mb-2">от $800</div>
-            <div className="text-sm text-gray-500">3-5 дней</div>
+            <div className="text-2xl font-bold text-green-400 mb-1">от $800</div>
+            <div className="text-xs text-gray-500">3-5 дней</div>
           </div>
         </div>
       </section>
@@ -139,6 +154,126 @@ export default function Home() {
             <h3 className="text-xl font-bold text-white mb-2">Сдача</h3>
             <p className="text-gray-400 text-sm">
               Передаём готовую страницу + инструкцию
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* OpenClaw Details Section */}
+      <section id="openclaw" className="container mx-auto px-4 py-20">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-white mb-4">Настройка OpenClaw</h2>
+            <p className="text-gray-400">Персональный ИИ-помощник на вашем компьютере</p>
+          </div>
+
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 mb-8">
+            <h3 className="text-2xl font-bold text-white mb-6">Что входит в базовый пакет ($200):</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-orange-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg className="w-4 h-4 text-orange-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-white mb-1">Установка OpenClaw</h4>
+                  <p className="text-gray-400 text-sm">На ваш компьютер или VPS</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-orange-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg className="w-4 h-4 text-orange-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-white mb-1">Настройка интерфейса</h4>
+                  <p className="text-gray-400 text-sm">Удобное управление через Telegram</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-orange-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg className="w-4 h-4 text-orange-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-white mb-1">Интеграция с Telegram</h4>
+                  <p className="text-gray-400 text-sm">Чат для взаимодействия с ИИ</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-orange-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg className="w-4 h-4 text-orange-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-white mb-1">Базовый функционал</h4>
+                  <p className="text-gray-400 text-sm">Напоминания, задачи, заметки</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-orange-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg className="w-4 h-4 text-orange-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-white mb-1">2 сессии обучения</h4>
+                  <p className="text-gray-400 text-sm">Настройка под ваши задачи</p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-orange-500/20 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg className="w-4 h-4 text-orange-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-white mb-1">Гарантия 1 месяц</h4>
+                  <p className="text-gray-400 text-sm">Бесплатное исправление проблем</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+            <h3 className="text-2xl font-bold text-white mb-6">Что можно настроить дополнительно:</h3>
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 bg-gray-500 rounded-full flex-shrink-0 mt-2"></div>
+                <p className="text-gray-300">
+                  <span className="text-white font-semibold">Работа с почтой:</span> автоматическая подготовка ответов, фильтрация писем
+                </p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 bg-gray-500 rounded-full flex-shrink-0 mt-2"></div>
+                <p className="text-gray-300">
+                  <span className="text-white font-semibold">Управление контактами:</span> интеграция с Google-таблицами
+                </p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 bg-gray-500 rounded-full flex-shrink-0 mt-2"></div>
+                <p className="text-gray-300">
+                  <span className="text-white font-semibold">Подготовка материалов:</span> сценарии, коммерческие предложения, презентации
+                </p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="w-2 h-2 bg-gray-500 rounded-full flex-shrink-0 mt-2"></div>
+                <p className="text-gray-300">
+                  <span className="text-white font-semibold">Аналитика:</span> анализ коммуникаций, планирование
+                </p>
+              </div>
+            </div>
+            <p className="text-gray-400 text-sm mt-6 italic">
+              Дополнительные интеграции обсуждаются индивидуально
             </p>
           </div>
         </div>
