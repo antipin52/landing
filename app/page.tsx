@@ -250,13 +250,13 @@ export default function Home() {
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-gray-500 rounded-full flex-shrink-0 mt-2"></div>
                 <p className="text-gray-300">
-                  <span className="text-white font-semibold">Работа с почтой:</span> автоматическая подготовка ответов, фильтрация писем
+                  <span className="text-white font-semibold">Учёт финансов:</span> запись расходов и доходов в чате, отчёты по категориям
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-gray-500 rounded-full flex-shrink-0 mt-2"></div>
                 <p className="text-gray-300">
-                  <span className="text-white font-semibold">Управление контактами:</span> интеграция с Google-таблицами
+                  <span className="text-white font-semibold">Прогноз бюджета:</span> анализ расходов и рекомендации по оптимизации
                 </p>
               </div>
               <div className="flex items-start gap-3">
@@ -268,7 +268,7 @@ export default function Home() {
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-gray-500 rounded-full flex-shrink-0 mt-2"></div>
                 <p className="text-gray-300">
-                  <span className="text-white font-semibold">Аналитика:</span> анализ коммуникаций, планирование
+                  <span className="text-white font-semibold">Управление контактами:</span> интеграция с Google-таблицами
                 </p>
               </div>
             </div>
