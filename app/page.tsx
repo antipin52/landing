@@ -51,9 +51,9 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-white mb-2">Фиксированная цена</h3>
+            <h3 className="text-xl font-bold text-white mb-2">Честная цена</h3>
             <p className="text-gray-400 text-sm">
-              Никаких доплат и сюрпризов. Вы знаете цену до начала работы.
+              Примерная цена: от $300 для простых лендингов. После обсуждения — точная цена, без сюрпризов.
             </p>
           </div>
 
