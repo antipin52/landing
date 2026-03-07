@@ -37,10 +37,28 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Who Am I Section */}
+      <section className="container mx-auto px-4 py-20">
+        <div className="max-w-2xl mx-auto">
+          <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm rounded-2xl p-8 border border-purple-500/20">
+            <h2 className="text-3xl font-bold text-white mb-6">Привет, я Дмитрий</h2>
+            <p className="text-xl text-gray-300 leading-relaxed">
+              Делаю сайты и настраиваю ИИ-помощников.
+            </p>
+            <p className="text-xl text-gray-300 leading-relaxed mt-4">
+              Работаю один — никаких менеджеров и просрочек.
+            </p>
+            <p className="text-xl text-gray-300 leading-relaxed mt-4">
+              <span className="text-purple-400 font-semibold">Отвечаю сам, делаю сам, сдаю сам.</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Principles Section */}
       <section id="principles" className="container mx-auto px-4 py-20">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-white mb-4">Почему мы?</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Мои принципы</h2>
           <p className="text-gray-400">Честность вместо красивых слов</p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
